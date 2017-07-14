@@ -1,0 +1,19 @@
+<p>
+  {{homeTitle}}
+  <ng-content></ng-content>
+</p>
+
+<!-- Property Binding -->
+<input [value]="myValue" />
+<input [required]="myBool" />
+
+<!-- Event binding  -->
+<button (click)="alertMe($event)">Submit</button>
+
+<!-- 2 way binding  -->
+ <!-- <p>
+  <input [(ngModel)]="ninja.name" />
+  <input [(ngModel)]"ninja.belt" />
+</p>   -->
+<p>{{ninja.name}}</p>
+<p>{{ninja.belt}}</p>
